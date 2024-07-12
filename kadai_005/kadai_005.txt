@@ -1,0 +1,33 @@
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\yuu5m>cd
+C:\Users\yuu5m
+
+C:\Users\yuu5m>cd C:\Users\yuu5m\OneDrive\ドキュメント
+
+C:\Users\yuu5m\OneDrive\ドキュメント>mkdir git_challenge
+
+C:\Users\yuu5m\OneDrive\ドキュメント>cd git_challenge
+
+C:\Users\yuu5m\OneDrive\ドキュメント\git_challenge>git init
+Initialized empty Git repository in C:/Users/yuu5m/OneDrive/ドキュメント/git_challenge/.git/
+
+C:\Users\yuu5m\OneDrive\ドキュメント\git_challenge>git add hello_world.txt
+
+C:\Users\yuu5m\OneDrive\ドキュメント\git_challenge>git commit -m "hello_world.txtを追加"
+[main (root-commit) c628cd1] hello_world.txtを追加
+ 1 file changed, 6 insertions(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\yuu5m\OneDrive\ドキュメント\git_challenge>git add hello_world.txt
+
+C:\Users\yuu5m\OneDrive\ドキュメント\git_challenge>git commit -m "日本語訳を追記"
+[main add8c93] 日本語訳を追記
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\yuu5m\OneDrive\ドキュメント\git_challenge>git log --oneline
+add8c93 (HEAD -> main) 日本語訳を追記
+c628cd1 hello_world.txtを追加
+
+C:\Users\yuu5m\OneDrive\ドキュメント\git_challenge>
